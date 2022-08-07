@@ -15,3 +15,7 @@ jobs:
       - uses: actions/checkout@v3
       - name: Run a one-line script
         run: echo Hello, world!
+      - name: sleeper
+        run: sleep 120
+      - name: Goodbye
+        run: echo Goodbye, world!
